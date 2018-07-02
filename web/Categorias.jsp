@@ -19,7 +19,7 @@
         <nav>
             <div class="nav-wrapper orange accent-3 row">
               <a href="#!" class="brand-logo col s4 offset-s6">Logo</a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">Prueba</i></a>
               <ul class="right hide-on-med-and-down">
                 <li><a href="sass.html">Sass</a></li>
                 <li><a href="badges.html">Components</a></li>
