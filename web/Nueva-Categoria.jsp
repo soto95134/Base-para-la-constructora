@@ -36,13 +36,13 @@
                             <a href="#name"><span class="white-text name">Pewmafe</span></a>
                             <a href="#email"><span class="white-text email">ñublexpediciones@gmail.com</span></a>
                         </div></li>
-                        <li><div class="divider"></div></li>
-                        <li><a href="index.html">MENU</a></li>
-                        <li><div class="divider"></div></li>
-                        <li><a href="listacategorias.do">Lista de categorias</a></li>
-                        <li><div class="divider"></div></li>
-                        <li><a href="listarproductos.do">Lista De Productos</a></li>
-                        <li><div class="divider"></div></li>
+                    <li><div class="divider"></div></li>
+                    <li><a href="index.html">MENU</a></li>
+                    <li><div class="divider"></div></li>
+                    <li><a href="listacategorias.do">Lista de categorias</a></li>
+                    <li><div class="divider"></div></li>
+                    <li><a href="listarproductos.do">Lista De Productos</a></li>
+                    <li><div class="divider"></div></li>
                 </ul>
             </div>
 
@@ -68,6 +68,7 @@
                             </div>
 
                         </div>
+                    </form>
 
                 </div>
 
@@ -75,19 +76,19 @@
                     <button class="btn waves-effect waves-light" type="submit" name="action">Submit
                         <i class="material-icons right">send</i>
                     </button>
-
                 </div>
-                </form>
+            </div>
 
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-                <!--JavaScript at end of body for optimized loading-->
-                <script type="text/javascript" src="js/materialize.min.js"></script>
+            <
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <!--JavaScript at end of body for optimized loading-->
+            <script type="text/javascript" src="js/materialize.min.js"></script>
 
-                <script>
-                    $(document).ready(function () {
-                        $('.sidenav').sidenav();
-                    });
-                    $('.collapsible').collapsible();
-                </script>
-                </body>
-                </html>
+            <script>
+                $(document).ready(function () {
+                    $('.sidenav').sidenav();
+                });
+                $('.collapsible').collapsible();
+            </script>
+    </body>
+</html>

@@ -41,7 +41,7 @@
                           <a href="#email"><span class="white-text email">Ã±ublexpediciones@gmail.com</span></a>
                         </div></li>
                         <li><div class="divider"></div></li>
-                        <li><a href="index.html">MENU</a></li>
+                        <li><a href="index.jsp">MENU</a></li>
                         <li><div class="divider"></div></li>
                         <li><a href="listacategorias.do">Lista de categorias</a></li>
                         <li><div class="divider"></div></li>
