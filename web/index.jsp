@@ -171,7 +171,7 @@
                                                         </label>
                                                     </p></td>
                                             </tr>
-                                                                    <tr>
+                                            <tr>
                                                 <td> </td>
                                                 <td> </td>
                                                 <td>Precio total:</td>
@@ -203,149 +203,6 @@
                     </div>
                 </div>
             </div>
-            <!-- -------------------------------------------------------------------------------------------------------------------------------------- -->
-            <div id="modal2" class="modal">
-                <div class="modal-content">
-                    <h4>Presupuesto</h4>
-                    <div class="row">
-                        <div class="col s3">
-                            <select>
-                                <option value="" disabled selected>Tipo de casa</option>
-                                <option>El bosque</option>
-                                <option>Balle hermoso</option>
-                                <option>Altos Pinares</option>
-                                <option>Gran Hacienda</option>
-                                <option>Pilares blancos</option>
-                                <option>Rio Puro</option>
-                            </select>
-                        </div>
-                        <div class="col s3">
-                            <select>
-                                <option value="" disabled selected>N° de dormitorios</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                                <option>6</option>
-                                <option>7</option>
-                                <option>8</option>
-                                <option>9</option>
-                                <option>10</option>
-                            </select>
-                        </div>
-                        <div class="col s3" >
-                            <select>
-                                <option value="" disabled selected>N° de baños</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                                <option>6</option>
-                                <option>7</option>
-                                <option>8</option>
-                                <option>9</option>
-                                <option>10</option>
-                            </select>
-                        </div>
-
-
-                        <div class="col s3">
-                            <select>
-                                <option value="" disabled selected>N° casas</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                                <option>6</option>
-                                <option>7</option>
-                                <option>8</option>
-                                <option>9</option>
-                                <option>10</option>
-                            </select>
-                        </div>
-                        <ul class="collapsible">
-                            <li>
-                                <div class="collapsible-header">
-                                    <i class="material-icons">description</i>
-                                    Clickeame para ver los materiales
-                                    <span class="badge"></span></div>
-                                <div class="collapsible-body"><p>
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th>Material</th>
-                                                <th>Cantidad</th>
-                                                <th>Precio unitario</th>
-                                                <th>Precio total</th>
-                                                <th>Seleccionar</th>
-                                            </tr>
-                                        </thead>
-
-                                        <tbody>
-                                            <tr>
-                                                <td>Kilo de clavos</td>
-                                                <td>20</td>
-                                                <td>$1.800</td>
-                                                <td>$36.000</td>
-                                                <td>                    <p>
-                                                        <label>
-                                                            <input type="checkbox"/>
-                                                            <span></span>
-                                                        </label>
-                                                    </p></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Sacos de cemento</td>
-                                                <td>15</td>
-                                                <td>$3600</td>
-                                                <td>$54.000</td>
-                                                <td>                    <p>
-
-                                                        <label>
-                                                            <input type="checkbox"/>
-                                                            <span></span>
-                                                        </label>
-                                                    </p></td>
-                                            </tr>
-                                                                    <tr>
-                                                <td> </td>
-                                                <td> </td>
-                                                <td>Precio total:</td>
-                                                <td>$490.000</td>
-                                                <td>                    <p>
-                                                <td> </td>
-
-                                            </tr>
-
-                                        </tbody>
-                                    </table>    
-
-                                </div>
-                            </li>
-                        </ul>
-
-                        <p>Clickea aqui abajo para crear un presupuesto con los items seleccionados:</p>
-                        <div class="">
-                            <a href="#modal2" class="modal-trigger waves-effect waves-green btn-flat">Rehacer presupuesto<i class="material-icons left">description</i></a>
-                        </div>
-
-
-                        <div class="modal-footer">
-                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Aceptar e imprimir<i class="material-icons left">local_printshop</i></a>
-                        </div>
-                        <div class="modal-footer">
-                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancelar<i class="material-icons left">cancel</i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            
-            
-            
         </div>
 
 
@@ -357,13 +214,11 @@
 
         <script>
             $(document).ready(function () {
-                $('.sidenav').sidenav();
                 $('.modal').modal();
                 $(".sidenav").sidenav();
                 $('.collapsible').collapsible();
                 $('select').formSelect();
             });
-            $('.collapsible').collapsible();
         </script>
     </body>
 </html>
